@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE contaopackage>
+<extension name="hiddenfield" date="20120809">
+    <author user="Toflar" name="Yanick Witschi" website="http://www.certo-net.ch" />
+    <copyright>&amp;copy; 2011 certo web &amp; design GmbH</copyright>
+    <license>LGPL</license>
+    <classification type="free" category="widget" />
+    <release version="10000009" build="8" date="20110929" />
+    <contao minversion="20090009" maxversion="20100049" />
+    <language code="de">
+        <translator user="Toflar" name="Yanick Witschi" website="http://www.certo-net.ch" />
+        <searchtags>widget,hidden,input</searchtags>
+        <title>hiddenfield</title>
+        <teaser>Ein Widget für versteckten Inhalt</teaser>
+        <description>&lt;p&gt;Mit diesem Widget kann man ein Feld mit type=&quot;hidden&quot; im BE-DCA benutzen.&lt;/p&gt;
+&lt;p&gt;&#039;inputType&#039; =[gt] &#039;hiddenField&#039;&lt;/p&gt;</description>
+        <releasenotes>&lt;p&gt;Erstversion&lt;/p&gt;</releasenotes>
+    </language>
+    <language code="en">
+        <translator user="Toflar" name="Yanick Witschi" website="http://www.certo-net.ch" />
+        <searchtags>widget,hidden</searchtags>
+        <title>hiddenfield</title>
+        <teaser>A widget for hidden input</teaser>
+        <description>&lt;p&gt;With this widget you can use an input type=&quot;hidden&quot; field in the back end DCA.&lt;/p&gt;
+&lt;p&gt;&#039;inputType&#039; =[gt] &#039;hiddenField&#039;&lt;/p&gt;</description>
+        <releasenotes>&lt;p&gt;Initial release&lt;/p&gt;</releasenotes>
+    </language>
+    <language code="fr">
+        <translator user="rthreis" name="Raphael Threis" website="http://threis.be" />
+        <searchtags>widget,chaché,invisible</searchtags>
+        <title>Champs invisible</title>
+        <teaser>Un widget pour les champs invisible</teaser>
+        <description>&lt;p&gt;Avec ce widget, vous pourrez utiliser des champs de saisie de type=&quot;hidden&quot; dans le backend DCA.&lt;/p&gt;&lt;p&gt;&#039;inputType&#039; =&gt; &#039;hiddenfield&#039;&lt;/p&gt;</description>
+        <releasenotes>&lt;p&gt;Sortie initiale&lt;/p&gt;</releasenotes>
+    </language>
+</extension>
