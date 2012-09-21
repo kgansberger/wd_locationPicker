@@ -1,7 +1,7 @@
 
 <h3><?php echo $this->generateLabel(); echo $this->xlabel; ?> (<?php echo $this->varValue; ?>)</h3>
 <?php echo $this->generate(); ?>
-<div id="<?php echo $this->strId; ?>_map_canvas" style="width=100%; height: 250px;"></div>
+<div id="<?php echo $this->strId; ?>_map_canvas" style="width=686px; height: 250px; margin: 10px 0; border: 1px solid #ccc"></div>
 <script type="text/javascript">
 
     window.addEvent('load', function () {
